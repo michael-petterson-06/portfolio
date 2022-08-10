@@ -1,9 +1,14 @@
+import MainContent from './components/Maincontent';
+import SideBar from './components/Sidebar';
+import './styles/components/app.sass';
+
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-        <h1>React + Sass</h1>
+    <div id="portfolio">
+        <h1>Michael Petterson</h1>
+        <SideBar/>
+        <MainContent/>
     </div>
   )
 }
