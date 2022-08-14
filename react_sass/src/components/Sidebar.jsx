@@ -1,18 +1,24 @@
-import avatar from '../img/foto-michael.jpeg';
-import '../styles/components/sidebar.sass';
+import SocialNetworkContainer from "./SocialNetworkContainer";
+import InformationContainer from "./InformationContainer";
 
-const SideBar = () => {
-    return (
-        <aside id='sidebar'>
-            <img src={avatar} alt="michael petterson" />
-            <p className="title">Desenvolvedor</p>
-            <p>redes sociais</p>
-            <p>informações de contato</p>
-            <a href="" className="btn">
-                Download curriculo
-            </a>
-        </aside>
-    )
-}
+import Avatar from "../img/eu.jpeg";
 
-export default SideBar;
+
+import "../styles/components/sidebar.sass";
+
+const Sidebar = () => {
+  return (
+    <aside id="sidebar">
+      <img src={Avatar} alt="Michael Petterson" />
+      <p className="title">Desenvolvedor</p>
+      <SocialNetworkContainer />
+      <InformationContainer />
+      <a href="#" className="btn">
+        Download currículo
+      </a>
+    </aside>
+  );
+};
+
+export default Sidebar;
+
