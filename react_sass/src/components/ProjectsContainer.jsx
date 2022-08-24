@@ -3,12 +3,11 @@ const ProjectsContainer = () => {
       <section className="projects-container">
         <h2>Projetos</h2>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore at
-          rem fugit provident dolorum exercitationem, ducimus quisquam ratione
-          cumque reiciendis accusamus totam, veniam iusto numquam distinctio.
-          Dignissimos labore aspernatur pariatur?
+          Esses projetos foram desenvolvidos com as ferramentas sitadas a cima,
+          são projetos pessoais e projetos desenvovidos no curso da Trybe no ano de
+          2021.
         </p>
-        <a href="#" className="btn">
+        <a href="https://github.com/michael-petterson-06" className="btn">
           Ver Projetos
         </a>
       </section>
