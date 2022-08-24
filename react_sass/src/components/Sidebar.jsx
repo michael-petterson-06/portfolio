@@ -6,6 +6,7 @@ import Avatar from "../img/eu.jpeg";
 
 import "../styles/components/sidebar.sass";
 
+import ProjectsContainer from "./ProjectsContainer";
 const Sidebar = () => {
   return (
     <aside id="sidebar">
@@ -16,6 +17,7 @@ const Sidebar = () => {
       <a href="#" className="btn">
         Download currículo
       </a>
+      <ProjectsContainer />
     </aside>
   );
 };
