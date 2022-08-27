@@ -13,7 +13,7 @@ const Sidebar = () => {
       <p className="title">Desenvolvedor</p>
       <SocialNetworkContainer />
       <InformationContainer />
-      <a href="#" className="btn">
+      <a href="https://drive.google.com/file/d/12lV3HggdvYm6KaoLMIrCWsDhwGaD0FL2/view?usp=sharing" className="btn">
         Download currículo
       </a>
     </aside>
