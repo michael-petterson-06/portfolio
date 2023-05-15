@@ -1,16 +1,13 @@
 {
-  "name": "portifolio",
-  "private": false,
+  "name": "react_sass",
+  "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://username.github.io/portifolio",
    "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "node index.html",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "node index.html"
   },
   "dependencies": {
     "react": "^18.2.0",
